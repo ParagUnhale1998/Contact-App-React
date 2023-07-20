@@ -1,0 +1,202 @@
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    height: auto;
+}
+.Nameofwebsite{
+    text-align: center;
+    padding:.5% 1%;
+    text-transform: uppercase;
+    font-weight: 660;
+    color: white;
+    background: #006affd9;
+    width: 100%;
+}
+
+.Search-container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.search{
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.566);
+
+    
+}
+.body-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap:10px;
+}
+.cards-container{
+    padding: 10px 0px;
+    width: 100%;
+    height: 605px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 1%; */
+   
+}
+.cards-container::-webkit-scrollbar{
+    background-image: linear-gradient(190deg,rgba(255, 255, 255, 0.814),rgba(0, 123, 255, 0.734));
+}
+::-webkit-scrollbar-thumb{
+background: #0084ff;
+border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+background: #00000018;
+}
+.card-container{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.591);
+    background: #86e2fe;
+    background-image: linear-gradient(30deg,rgb(0, 115, 255),rgb(119, 230, 255));
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ width: 400px;
+ height: 200px;
+ text-transform: capitalize;
+ position: relative;
+ border-radius: 10%;
+ border: 1px solid rgb(255, 255, 255);
+ color: white;
+ cursor: pointer;
+ transition: 1s ease;
+}
+.card-container:hover{
+    transform: scale(1.1);
+}
+.top{
+    padding-left: 2%;
+    border-bottom: 2px solid #fafafa;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bottom{
+    padding-left: 2%;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  gap: 20px;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.profilePic{
+ border-radius: 50%;
+ border: 5px solid rgb(245, 245, 245);
+ position: absolute;
+ top:10%;
+ right: 5%;
+ height: 128;
+ width: 128px;
+}
+.add-contact-btn{
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    /* margin-left: 5%; */
+    cursor: pointer;
+    background: white;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.574);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.383);
+}
+.form-container{
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  border: 1px solid black;
+  background:#fff;
+  width: 50%;
+  height: 50vh;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.718);
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 1em;
+}
+label{
+width: 95%;
+font-weight: 500;
+}
+.input-name{
+width: 100%;
+padding: .2em;
+outline: none;
+}
+.input-no{
+    width: 100%;
+    padding: .2em;
+    outline: none;
+}
+.input-email{
+    width: 100%;
+    padding: .2em;
+    outline: none;
+}
+.input-image{
+    width: 100%;
+    padding: .2em;
+    outline: none;
+}
+.submit-btn{
+    width: 20%;
+    padding: 1em;
+    background: rgb(109, 255, 47);
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.323);
+    border: 1px solid rgba(0, 0, 0, 0.421);
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background: rgb(85, 253, 13);
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.825);
+  
+}
+.close-btn{
+    width: 10%;
+    background: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.524);
+    letter-spacing: 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
