@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ParagUnhale1998/Contact-App-React/static/css/main.b605abd6.css",
+    "main.js": "/ParagUnhale1998/Contact-App-React/static/js/main.6395e1ae.js",
+    "index.html": "/ParagUnhale1998/Contact-App-React/index.html",
+    "main.b605abd6.css.map": "/ParagUnhale1998/Contact-App-React/static/css/main.b605abd6.css.map",
+    "main.6395e1ae.js.map": "/ParagUnhale1998/Contact-App-React/static/js/main.6395e1ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b605abd6.css",
+    "static/js/main.6395e1ae.js"
+  ]
+}
