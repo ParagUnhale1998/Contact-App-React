@@ -11,7 +11,8 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": ".",
+    "homepage": "https://paragunhale1998.github.io/Contact-App-React",
+,
 
   "scripts": {
     "start": "react-scripts start",
